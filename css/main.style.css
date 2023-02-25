@@ -1,0 +1,490 @@
+/* GLOBAL style */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* section ajustement*/
+
+.delete-margin {
+    margin: 10px;
+    padding: 0;
+}
+
+.section-ajust {
+    margin: 8em auto;
+}
+
+.bg-claire {
+    background-color: #f8f9fa;
+}
+
+
+/* end section ajustement*/
+
+
+/* h2, h3*/
+
+h2,
+h3,
+h4 {
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+/* second title*/
+
+
+/* .second-title {
+    font-family: 'Raleway';
+    font-size: 2.4 em;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    position: relative;
+    padding: 0 0 10px 0;
+    line-height: 120% !important;
+    
+} */
+
+
+/* underLine*/
+
+.underline {
+    width: 8%;
+    height: 5px;
+    background: #fbcf00;
+    position: relative;
+    display: block;
+    margin: 1.5em auto;
+}
+
+
+/* Button cellular hiden*/
+
+#btn-cellular {
+    display: none;
+}
+
+
+/*------------------------------------------------------------------
+    HEADER
+-------------------------------------------------------------------*/
+
+.covid {
+    background: red;
+    color: aliceblue;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.phone-number {
+    color: rgb(3, 60, 68);
+    font-size: xx-large;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.phone-number:hover {
+    text-decoration: none;
+    color: #e8a900;
+}
+
+.urgence {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.header-contact {
+    text-align: right;
+    background-color: #f8f9fa;
+    width: 100%;
+    margin: 0;
+    padding-top: 2em;
+}
+
+.inner-header {
+    background-image: url(../assets/plumbing-tools.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 54vh;
+    width: 100%;
+}
+
+.inner-text {
+    background-color: rgba(16, 87, 71, 0.5);
+    height: 54vh;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 5em;
+}
+
+.inner-text button {
+    color: black;
+    margin-top: 2em;
+}
+
+.inner-logo-contact {
+    justify-content: space-between;
+}
+
+
+/*----- NAVBAR-------*/
+
+.navbar a {
+    text-transform: uppercase;
+}
+
+
+/*----- -------------*/
+
+
+/*
+    LOGO
+*/
+
+.logo-img {
+    max-width: 9em;
+    margin-top: -2em;
+    margin-left: -1em;
+}
+
+
+/* promoion 25% */
+
+.promo {
+    width: 100%;
+    background-color: #fbcf00;
+    color: #f8f9fa;
+    padding: .9em;
+    color: #212529;
+    font-size: x-large;
+}
+
+.promo>p {
+    text-align: center;
+}
+
+
+/* Promo Logo -25%*/
+
+.promo-logo {
+    width: 6em;
+    position: absolute;
+    margin-top: -2em;
+}
+
+
+/*------------------------------------------------------------------
+    SERVICES BLOC
+-------------------------------------------------------------------*/
+
+#services-bloc {
+    width: 100%;
+    /* background-color: #f8f9fa; */
+    margin: 2em 0;
+    padding: 6em 0;
+}
+
+.services-elm-title {
+    text-transform: none;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+
+.services-elm {
+    border-radius: 25px;
+    padding: 2em 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.services-elm:hover {
+    transform: scale(1.1);
+    background-color: #e0a800;
+    color: rgb(3, 60, 68);
+    transition-duration: 1.2s;
+    transition-property: background-color, color transform;
+}
+
+.services-elm>a {
+    color: #111;
+}
+
+.services-elm>a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#atout-bloc {
+    margin: 2em 0;
+    padding: 6em 0;
+}
+
+
+/*------------------------------------------------------------------
+    ABOUT US
+-------------------------------------------------------------------*/
+
+.about-us-title {
+    margin-bottom: 3em;
+}
+
+.read-more {
+    background: #e8a900;
+    color: #111;
+    font-weight: 900;
+    padding: 10px 30px;
+    float: left;
+    border-radius: 50px;
+    text-transform: uppercase;
+    transition: ease all 1s;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    color: #e8a900;
+    background: #111;
+    text-decoration: none;
+}
+
+
+/*------------------------------------------------------------------
+    POURQUOI NOUS CHOISIR
+-------------------------------------------------------------------*/
+
+#why-us {
+    background-color: rgb(3, 60, 68);
+    padding: 3em 0;
+    color: #f8f9fa;
+}
+
+#why-us .fa:before {
+    font-size: 3em;
+    text-align: center;
+    color: #f8f9fa;
+}
+
+
+/* .team-margin-top {
+    margin-top: 5em;
+} */
+
+
+/*------------------------------------------------------------------
+    SERVICES
+-------------------------------------------------------------------*/
+
+
+/*service title*/
+
+#services .nav {
+    margin-top: 3em;
+}
+
+
+/* caroussel nav-bar */
+
+
+/* a */
+
+.speciality {
+    font-size: 1.5em;
+    color: #111;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/* a:hover */
+
+.speciality:hover {
+    text-decoration: none;
+    color: dimgrey;
+}
+
+
+/* h2 */
+
+.carr-content h2 {
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+
+/*------------------------------------------------------------------
+    ZONE D'ACTIVITE
+-------------------------------------------------------------------*/
+
+#zone-activity-title:hover {
+    cursor: pointer;
+    background-color: #38414b;
+}
+
+#zone-activity-title {
+    border: 4px solid green;
+    padding: .6em;
+    background-color: rgb(10 23 24);
+    color: #f8f9fa;
+}
+
+#zone-activity-title-hiden {
+    border: 2px 0 solid green;
+    padding: .6em;
+    background-color: rgb(10 23 24);
+    color: #f8f9fa;
+}
+
+#zone-activity {
+    background: rgb(10 23 24);
+    margin-top: 8em;
+    padding: 3em 0;
+    color: #f8f9fa;
+}
+
+
+/* Hide zone activite liste*/
+
+.hiden {
+    display: none;
+    transition: display 2s;
+}
+
+.activity-list {
+    justify-content: space-around;
+}
+
+.activity-list li {
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+}
+
+
+/*------------------------------------------------------------------
+    LOCATION MAP
+-------------------------------------------------------------------*/
+
+.green-claire {
+    width: 100%;
+    background-color: rgb(8, 97, 8);
+    margin: 0;
+    padding: 1em;
+    color: #f8f9fa;
+}
+
+.map-location {
+    margin-top: 8em!important;
+    height: 60vh;
+}
+
+
+/*------------------------------------------------------------------
+    CONTACT - INFO
+-------------------------------------------------------------------*/
+
+#contact-info {
+    height: 60vh;
+    background-image: url("../assets/marseille/marseille-vieux-port.jpg ");
+    background-position: center;
+    background-size: cover;
+    padding-top: 3em;
+}
+
+.contact-elm {
+    background-color: #050505b8;
+    color: #f8f9fa;
+    padding: 2em 4em;
+    border-radius: 24px;
+}
+
+.contact-elm>h6 {
+    text-align: center;
+    font-size: x-large;
+    text-transform: uppercase;
+}
+
+
+/* h6 underLine*/
+
+.contact-underline {
+    width: 40%;
+    height: 3px;
+    background: #fbcf00;
+    position: relative;
+    display: block;
+    margin: .8em auto 1em auto;
+}
+
+.contact-service>li>a {
+    color: #f8f9fa;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.ab-colored {
+    color: #e0a800;
+    font-size: medium;
+}
+
+.ab-colored-large {
+    color: #e0a800;
+    font-size: large;
+}
+
+
+/*------------------------------------------------------------------
+    FOOTER SESSION
+-------------------------------------------------------------------*/
+
+#social-title {
+    color: #f8f9fa;
+    margin-top: .8em;
+    margin-bottom: .5em;
+}
+
+.footer {
+    background-color: #121111;
+    padding: 2em 0;
+}
+
+.footer-copy {
+    background-color: rgb(10 23 24);
+    color: #f8f9fa;
+    padding: 2em;
+    margin: 0;
+}
+
+.fab {
+    font-size: 3em;
+    color: aqua;
+    width: 2em;
+}
+
+.social-icon {
+    justify-content: center;
+    text-align: center;
+}
+
+.fa-pinterest:hover {
+    color: red
+}
+
+.fa-youtube-square:hover {
+    color: red
+}
+
+.fa-facebook:hover {
+    color: rgb(71, 71, 122)
+}

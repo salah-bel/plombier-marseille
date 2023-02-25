@@ -1,0 +1,24 @@
+.inner-header-cumulus {
+    background-image: url(../../assets/cumulus/cumulus-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 42vh;
+    width: 100%;
+}
+
+.inner-text-cumulus {
+    background-color: rgba(16, 87, 71, 0.5);
+    height: 42vh;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 5em;
+}
+
+
+/*image body */
+
+.main-image {
+    width: 16em;
+    text-align:center ;
+}

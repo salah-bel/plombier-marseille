@@ -1,0 +1,51 @@
+    /* 991 px*/
+    
+    @media(max-width: 991px) {
+        /*contac - info*/
+        #contact-info {
+            height: 135vh;
+        }
+        .contact-elm {
+            margin-bottom: 2em;
+        }
+        .contact-info {
+            margin-left: 3em;
+        }
+        .inner-header,
+        .inner-text {
+            height: 40vh;
+        }
+    }
+    /* 726 px*/
+    
+    @media(max-width: 726px) {
+        .inner-header,
+        .inner-text {
+            height: 56vh;
+        }
+        #btn-call-header {
+            margin-bottom: 2em;
+        }
+        h1 {
+            font-size: 2em;
+        }
+    }
+    /* 426px  button hiden*/
+    
+    @media(max-width: 426px) {
+        /*button call - display none*/
+        .btn-call {
+            display: none;
+        }
+        #btn-cellular {
+            display: block;
+            width: 100%;
+        }
+    }
+    /*380px text header change size*/
+    
+    @media(max-width: 426px) {
+        .inner-text>h1 {
+            font-size: 2em;
+        }
+    }
